@@ -12,14 +12,22 @@ body{
 ul {
   list-style: none;
 }
+/*Page header*/
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 
+}
 /* Logo*/
 .logo {
   color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -32,7 +40,7 @@ ul {
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,7 +60,7 @@ ul {
 .adress .link{
    color: var(--text-color);
    text-decoration: none;
-   font-style: normal;
+   font-style: 400;
    font-weight: 500;
    font-size: 14px;
   line-height: 1.14;
@@ -65,7 +73,7 @@ ul {
 
 /*Buttons*/
 .button{ 
-font-style: normal;
+font-style: 400;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -81,20 +89,31 @@ color:var(--primary-text-color);
   background-color: var(--accent-color);
 }
 /*Hero*/
-.hero-title{
-  color: var(--secondary-color);
+/*.hero{
+  width: 1230px;
+}*/
+.hero{
   background-color: var(--text-color);
-   font-style: normal;
+}
+
+.hero-title{
+  max-width: 696px;
+  color: rgba(255, 255, 255, 1);
+   font-style: 400;
    font-weight: 900;
    font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .hero .button{
-   font-style: normal;
-   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto ;
+   font-style: 400;
+   font-weight: 700;
    font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -108,7 +127,7 @@ color:var(--primary-text-color);
 
 .about-us .title{
   color:var(--primary-text-color);
-  font-style: normal;
+  font-style: 400;
   font-weight: bold;
   font-size: 14px;
  line-height: 1.14;
@@ -117,8 +136,8 @@ color:var(--primary-text-color);
 }
 .about-us .text{
   color:var(--text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
  line-height: 1.7;
  letter-spacing: 0.03em;
@@ -127,8 +146,8 @@ color:var(--primary-text-color);
 
 .actions{
   color:var(--primary-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 36px;
  line-height: 1.16;
  letter-spacing: 0.03em;
@@ -138,8 +157,8 @@ color:var(--primary-text-color);
 
 .team .top-title{
   color:var(--primary-text-color);
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 36px;
  line-height: 1.16;
  letter-spacing: 0.03em;
@@ -147,7 +166,7 @@ color:var(--primary-text-color);
 }
 .team .title{
     color:var(--primary-text-color);
-    font-style: normal;
+    font-style: 400;
     font-weight: 500;
     font-size: 16px;
    line-height: 1.18;
@@ -155,7 +174,7 @@ color:var(--primary-text-color);
 }
   .team .text{
       color:var(--text-color);
-      font-style: normal;
+      font-style: 400;
       font-weight: 500;
       font-size: 16px;
      line-height: 1.18;
@@ -165,11 +184,13 @@ color:var(--primary-text-color);
   /*Footer*/
   .foot{
     background-color: var(--footer-color);
+    width: 1600px;
+    
   }
   .logo-fut{
     font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    font-style: 400;
+    font-weight: 700;
     font-size: 26px;
    line-height: 1.19;
    letter-spacing: 0.03em;
@@ -180,8 +201,8 @@ color:var(--primary-text-color);
     color: var(--accent-color);
   }
   .adress-foot .link{
-    font-style: normal;
-    font-weight: normal;
+    font-style: 400;
+    font-weight: 400;
     font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
@@ -193,8 +214,8 @@ color:var(--primary-text-color);
   color: var(--accent-color);
 }
 .kiev{
-    font-style: normal;
-    font-weight: normal;
+    font-style: 400;
+    font-weight: 400;
     font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
@@ -203,16 +224,16 @@ color:var(--primary-text-color);
 /*Portfolio*/
 
 .list .list-title{
-    font-style: normal;
-    font-weight: bold;
+    font-style: 400;
+    font-weight: 700;
     font-size: 18px;
    line-height: 2;
    letter-spacing: 00.06em;
   color: var(--primary-text-color);
   }
   .list .list-text{
-      font-style: normal;
-      font-weight: normal;
+      font-style: 400;
+      font-weight: 700;
       font-size: 16px;
      line-height: 1.87;
      letter-spacing: 00.03em;
