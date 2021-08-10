@@ -1,0 +1,220 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-color: #ffffff;
+  --footer-color:#2f303a;
+}
+
+body{
+  font-family: Roboto,sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+/* Logo*/
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo .change{
+  color: var(--accent-color);
+}
+
+/*site-nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+  color: var(--accent-color);
+}
+.site-nav .studio{
+  color: var(--accent-color);
+}
+  .site-nav .portfolio{
+    color: var(--accent-color);
+  }
+.adress .link{
+   color: var(--text-color);
+   text-decoration: none;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+/*Buttons*/
+.button{ 
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+ background-color: #f5f4fa;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+/*Hero*/
+.hero-title{
+  color: var(--secondary-color);
+  background-color: var(--text-color);
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero .button{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color:var(--secondary-color);
+}
+/*Section about-us*/ 
+
+.about-us .title{
+  color:var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+.about-us .text{
+  color:var(--text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+ line-height: 1.7;
+ letter-spacing: 0.03em;
+}
+/*Section what we do*/
+
+.actions{
+  color:var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+ line-height: 1.16;
+ letter-spacing: 0.03em;
+ text-align: center;
+}
+/*Section our team*/
+
+.team .top-title{
+  color:var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+ line-height: 1.16;
+ letter-spacing: 0.03em;
+ text-align: center;
+}
+.team .title{
+    color:var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   line-height: 1.18;
+   letter-spacing: 0.03em;
+}
+  .team .text{
+      color:var(--text-color);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+     line-height: 1.18;
+     letter-spacing: 0.03em;
+  }
+
+  /*Footer*/
+  .foot{
+    background-color: var(--footer-color);
+  }
+  .logo-fut{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+  color:var(--secondary-color);
+  text-decoration: none;
+  }
+  .change-fut{
+    color: var(--accent-color);
+  }
+  .adress-foot .link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color:rgba(255,255,255,0.6);
+   text-decoration: none;
+  }
+.adress-foot .link:hover,
+.adress-foot .link:focus {
+  color: var(--accent-color);
+}
+.kiev{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color:var(--secondary-color)
+}
+/*Portfolio*/
+
+.list .list-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+   line-height: 2;
+   letter-spacing: 00.06em;
+  color: var(--primary-text-color);
+  }
+  .list .list-text{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+     line-height: 1.87;
+     letter-spacing: 00.03em;
+    color:var(--text-color)
+    }
