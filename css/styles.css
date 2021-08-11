@@ -1,3 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img{
+  display: block;
+}
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
 :root {
   --primary-text-color: #212121;
   --text-color: #757575;
@@ -9,28 +34,40 @@
 body{
   font-family: Roboto,sans-serif;
 }
-ul {
-  list-style: none;
-}
+
+
 /*Page header*/
 .container{
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0,auto;
   width: 1200px;
 
 }
+.navi-cont{
+  display: flex;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.site-nav .list{
+  display: flex;
+  align-items: center;
+}
+
+
 /* Logo*/
 .logo {
   color: var(--primary-text-color);
-  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: 400;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 90px;
 }
 .logo .change{
   color: var(--accent-color);
@@ -184,7 +221,7 @@ color:var(--primary-text-color);
   /*Footer*/
   .foot{
     background-color: var(--footer-color);
-    width: 1600px;
+    
     
   }
   .logo-fut{
