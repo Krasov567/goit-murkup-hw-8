@@ -156,18 +156,21 @@ body{
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color:var(--secondary-color);
+  cursor: pointer;
+  border-radius: 4px;
 }
 /*Section about-us*/ 
 
 .numeration{
   display: flex;
   align-content: center;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .description{
-  width: 270px;
-}
-.description:not(:last-child){
-  margin-right: 30px;
+  max-width: calc((100% - 120px) / 4);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .description .title{
@@ -192,11 +195,14 @@ body{
 .doing.list{
 display: flex;
 align-content: center;
+margin-left: -30px;
+margin-top: -50px;
+padding-bottom: 50px;
 }
 .illustr{
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+margin-top: 50px;
+margin-left: 30px;
+max-width: calc((100% - 90px) / 3);
 }
 .illustr:not(:last-child){
   padding-right: 30px;
@@ -209,6 +215,7 @@ align-content: center;
  line-height: 1.16;
  letter-spacing: 0.03em;
  text-align: center;
+ padding-bottom: 50px;
 }
 /*Section our team*/
 .section.team{
@@ -217,26 +224,27 @@ align-content: center;
 .people.list{
   display: flex;
   align-content: center;
+  margin-left: -30px;
+margin-top: -50px;
 }
 .humans-title{
-  padding-top: 30px;
   text-align: center;
+}
+.about-hum{
+  padding: 30px;
 }
 .humans-text{
   padding-top: 10px;
   text-align: center;
+  color:var(--text-color);
   }
   .top-title{
   padding-top: 94px;
+  padding-bottom: 50px;
   }
 .humans{
-  padding-top: 50px;
-  padding-bottom: 96px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.humans:not(:last-child){
-  padding-right: 30;
+margin-left: 30px;
+margin-top: 50px;
 }
 .team .top-title{
   color:var(--primary-text-color);
@@ -330,6 +338,19 @@ align-content: center;
      letter-spacing: 00.03em;
     color:var(--text-color)
     }
+    .photo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items:center ;
+      flex-wrap: wrap;
+      margin-top: -50px;
+      margin-left: -30px;
+    }
+    .photo-num{
+      margin-top: 50px;
+      margin-left: 30px;
+    }
 
     .all-buttons.list{
       display: flex;
@@ -341,7 +362,7 @@ align-content: center;
     }
     /*Buttons*/
 .button{ 
-  border-radius: 2px;
+  border-radius: 4px;
   margin-top: 100px;
   border:none;
   font-style: 400;
@@ -352,10 +373,16 @@ align-content: center;
   letter-spacing: 0.03em;
   color:var(--primary-text-color);
    background-color: #f5f4fa;
+   cursor: pointer;
   }
   
   .button:hover,
   .button:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
+  }
+  .signature{
+    border: solid 1px #EEEEEE;
+    border-top: none;
+    padding-top: 20px;
   }
