@@ -47,19 +47,17 @@ body{
 .container{
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0,auto;
+  margin: 0 auto;
   width: 1200px;
 }
 .section{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*Page header*/
 .header{
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-  padding-bottom: 25px;
-  padding-top: 25px;
 }
 .navi-cont{
   display: flex;
@@ -73,11 +71,16 @@ body{
 .site-nav.list{
   display: flex;
   align-items: center;
+  
 }
 .address.list{
   display: flex;
   align-items: center;
-  margin-left:auto;
+  margin-left: auto;
+}
+.site-nav-item{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav-item:not(:last-child){
   margin-right: 50px;
@@ -106,6 +109,7 @@ body{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 .site-nav .link:hover,
@@ -135,8 +139,6 @@ body{
 
 .hero{
   background-color:var(--footer-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title{
@@ -151,12 +153,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 .hero .button{
-  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  font-style: 400;
    font-weight: 700;
    font-size: 16px;
   line-height: 1.87;
@@ -185,17 +186,15 @@ body{
 
 .description .title{
   color:var(--primary-text-color);
-  font-style: 400;
   font-weight: bold;
   font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.03em;
  text-transform: uppercase;
+ margin-bottom: 10px;
 }
 .description .text{
-  padding-top: 10px;
   color:var(--text-color);
-  font-style: 400;
   font-weight: 400;
   font-size: 14px;
  line-height: 1.7;
@@ -207,15 +206,12 @@ display: flex;
 align-content: center;
 margin-left: -30px;
 margin-top: -50px;
-padding-bottom: 50px;
+max-width: 270px;
 }
 .illustr{
 margin-top: 50px;
 margin-left: 30px;
-max-width: calc((100% - 90px) / 3);
-}
-.illustr:not(:last-child){
-  padding-right: 30px;
+max-width: 370px
 }
 .actions{
   color:var(--primary-text-color);
@@ -225,7 +221,7 @@ max-width: calc((100% - 90px) / 3);
  line-height: 1.16;
  letter-spacing: 0.03em;
  text-align: center;
- padding-bottom: 50px;
+ margin-bottom: 50px;
 }
 /*Section our team*/
 .section.team{
@@ -239,9 +235,7 @@ margin-top: -50px;
 }
 .humans-title{
   text-align: center;
-}
-.about-hum{
-  padding: 30px;
+  margin-bottom: 10px;
 }
 .humans-text{
   padding-top: 10px;
@@ -249,16 +243,18 @@ margin-top: -50px;
   color:var(--text-color);
   }
   .top-title{
-  padding-top: 94px;
-  padding-bottom: 50px;
+ margin-bottom: 50px;
   }
 .humans{
 margin-left: 30px;
 margin-top: 50px;
 }
+.about-hum{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team .top-title{
   color:var(--primary-text-color);
-  font-style: 400;
   font-weight: 700;
   font-size: 36px;
  line-height: 1.16;
@@ -290,20 +286,20 @@ margin-top: 50px;
   }
 
   .logo-fut{
-    font-family: Raleway, sans-serif;
-    font-style: 400;
+    display: block;
+    font-family: Raleway, sans-serif; 
     font-weight: 700;
     font-size: 26px;
    line-height: 1.19;
    letter-spacing: 0.03em;
   color:var(--secondary-color);
   text-decoration: none;
+  margin-bottom: 20px;
   }
   .change-fut{
     color: var(--accent-color);
   }
   .adress-foot .link{
-    font-style: 400;
     font-weight: 400;
     font-size: 14px;
    line-height: 1.7;
@@ -316,18 +312,16 @@ margin-top: 50px;
   color: var(--accent-color);
 }
 .kiev{
-    font-style: 400;
     font-weight: 400;
     font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
-   color:var(--secondary-color)
+   color:var(--secondary-color);
+   margin-bottom: 10px;
+   
   }
-.adress-foot.list{
-  margin-top: 10px;
-}
-.foot-adress{
-  margin-bottom: 9px;
+.foot-adress:not(:last-child){
+margin-bottom: 10px;
 }
 
 /*Portfolio*/
@@ -366,14 +360,14 @@ margin-top: 50px;
       display: flex;
       align-content: center;
       justify-content: center;
+      margin-bottom: 50px;
     }
     .butt:not(:last-child){
       margin-left: 10px;
     }
     /*Buttons*/
-.button{ 
+.list-button{ 
   border-radius: 4px;
-  margin-top: 100px;
   border:none;
   font-style: 400;
   font-weight: 500;
@@ -386,8 +380,8 @@ margin-top: 50px;
    cursor: pointer;
   }
   
-  .button:hover,
-  .button:focus {
+  .list-button:hover,
+  .list-button:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
   }
