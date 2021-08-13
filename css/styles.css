@@ -128,8 +128,8 @@ padding: 32px 0px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.adress .link:hover,
-.adress .link:focus {
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 /*Hero*/
@@ -137,6 +137,9 @@ padding: 32px 0px;
 .hero{
   background-color:var(--footer-color);
   padding-top: 200px;
+  background-image: url(../images/heroback.jpg);
+  background-position: 100%;
+  background-size: cover;
 }
 
 .hero-title{
