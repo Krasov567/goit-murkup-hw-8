@@ -241,7 +241,6 @@ width: 370px;
 }
 .actions{
   color:var(--primary-text-color);
-  font-style: 400;
   font-weight: 700;
   font-size: 36px;
  line-height: 1.16;
@@ -290,7 +289,6 @@ box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0
 }
 .team .title{
     color:var(--primary-text-color);
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
    line-height: 1.18;
@@ -298,12 +296,66 @@ box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0
 }
   .team .text{
       color:var(--text-color);
-      font-style: 400;
       font-weight: 500;
       font-size: 16px;
      line-height: 1.18;
      letter-spacing: 0.03em;
   }
+  
+     .social-icons{
+       display: flex;
+       justify-content: center;
+       width: 44px;
+       height: 44px;
+     }
+    
+    
+  
+/*Section clients*/
+.clients-title{
+font-weight: 700;
+text-align:center;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+.clients-back:not(:last-child){
+  margin-right: 30px;
+}
+
+.clients-list{
+  display: flex;
+  justify-content: center;
+}
+.clients-icon{
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+  fill: #AFB1B8;
+}
+.clients-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.clients-link:hover,
+.clients-link:focus{
+  border-color: var(--accent-color);
+}
+.clients-icon:focus,
+.clients-icon:hover{
+  fill: var(--accent-color);
+}
+.clients-item:not(:last-child){
+  margin-right: 30px;
+}
+
 
   /*Footer*/
   .foot{
