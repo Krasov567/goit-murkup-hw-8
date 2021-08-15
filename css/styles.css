@@ -154,6 +154,7 @@ padding: 32px 0px;
    url(../images/heroback.jpg);
   background-color: #c4c4c4;;
   padding-top: 200px;
+  padding-bottom: 200px;
    flex-grow: 1;
   background-size: cover;
   max-width: 1600px;
@@ -175,8 +176,7 @@ padding: 32px 0px;
   margin-bottom: 40px;
 }
 .hero .button{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
    font-weight: 700;
    font-size: 16px;
   line-height: 1.87;
@@ -188,6 +188,11 @@ padding: 32px 0px;
   color:var(--secondary-color);
   cursor: pointer;
   border-radius: 4px;
+  padding: 10px 32px;
+}
+.button:hover,
+.button:focus{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*Section about-us*/ 
 .back-logo-about{
@@ -270,6 +275,11 @@ width: 370px;
 .humans-title{
   text-align: center;
   margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+letter-spacing: 0.03em;
+
 }
 .humans-text{
   text-align: center;
@@ -496,7 +506,7 @@ margin-bottom: 10px;
   }
   .list .list-text{
       font-style: 400;
-      font-weight: 700;
+      font-weight: 400;
       font-size: 16px;
      line-height: 1.87;
      letter-spacing: 00.03em;
@@ -539,14 +549,14 @@ margin-bottom: 10px;
   color:var(--primary-text-color);
    background-color: #f5f4fa;
    cursor: pointer;
-   padding-left: 22px;
-  padding-right: 22px;
+   padding: 6px 22px;
   }
   
   .list-button:hover,
   .list-button:focus {
     color: var(--secondary-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
   .signature{
     border: solid 1px #EEEEEE;
