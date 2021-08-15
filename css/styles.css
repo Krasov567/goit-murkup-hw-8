@@ -143,11 +143,16 @@ padding: 32px 0px;
 /*Hero*/
 
 .hero{
-  background-color:var(--footer-color);
+  background-image: linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+  ),
+   url(../images/heroback.jpg);
+  background-color: #c4c4c4;;
   padding-top: 200px;
-  background-image: url(../images/heroback.jpg);
-  background-position: 100%;
+   flex-grow: 1;
   background-size: cover;
+
 }
 
 .hero-title{
@@ -362,15 +367,14 @@ margin-bottom: 50px;
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
-  box-sizing: border-box;
   border-radius: 4px;
 }
 .clients-link:hover,
 .clients-link:focus{
   border-color: var(--accent-color);
 }
-.clients-icon:focus,
-.clients-icon:hover{
+.clients-icon:hover,
+.clients-icon:focus{
   fill: var(--accent-color);
 }
 .clients-item:not(:last-child){
