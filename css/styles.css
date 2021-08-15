@@ -33,6 +33,10 @@ img{
   border: 0;
   clip: rect(0 0 0 0)
 }
+:hover,
+:focus{
+  outline: none;
+}
 :root {
   --primary-text-color: #212121;
   --text-color: #757575;
@@ -152,6 +156,7 @@ padding: 32px 0px;
   padding-top: 200px;
    flex-grow: 1;
   background-size: cover;
+  max-width: 1600px;
 
 }
 
@@ -311,17 +316,16 @@ box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0
      .social-icons{
        display: flex;
        justify-content: center;
-       align-items: center;
      }
        
      
     .team-icon{
       width: 20px;
       height: 20px;
+      fill: #AFB1B8;
     }
-    .team-icon:hover,
-    .team-icon:focus{
-      fill: var(--secondary-color)
+    .team-list-icon:not(:last-child){
+      margin-right: 10px;
     }
     .humans-soc-link{
       display: flex;
@@ -330,11 +334,19 @@ box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0
       height: 44px;
       width: 44px;
       border-radius: 30px;
+      cursor: pointer;
     }
     .humans-soc-link:hover,
     .humans-soc-link:focus{
       background-color: var(--accent-color);
     }
+    
+    .humans-soc-link:hover> .team-icon,
+    .humans-soc-link:focus> .team-icon{
+      fill: var(--secondary-color);
+    }
+
+
     
   
 /*Section clients*/
@@ -373,10 +385,13 @@ margin-bottom: 50px;
 .clients-link:focus{
   border-color: var(--accent-color);
 }
-.clients-icon:hover,
-.clients-icon:focus{
+
+.clients-link:hover> .clients-icon,
+.clients-link:focus> .clients-icon{
   fill: var(--accent-color);
 }
+
+
 .clients-item:not(:last-child){
   margin-right: 30px;
 }
@@ -384,10 +399,30 @@ margin-bottom: 50px;
 
 
   /*Footer*/
+  .footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-left: 12px;
+    color: var(--secondary-color);
+  }
+  
   .foot{
     background-color: var(--footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .foot-cont{
+    display:flex;
+  }
+  .foot-left{
+    display: block;
+  }
+  .foot-right{
+    display: block;
+    margin-left: 70px;
   }
  .adress{
    font-style: normal;
