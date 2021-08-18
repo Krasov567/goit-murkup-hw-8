@@ -377,8 +377,27 @@
 </div>
 </div>
 </footer>
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop" data-modal>
   <div class="modal">
+    <form class="modal-form">
+      <p class="modal-head">Оставьте свои данные,мы вам перезвоним</p>
+      <label class="modal-form-label">Имя
+       <input type="text" name="user-name" class="modal-form-input" pattern="[a-zA-Zа-яёА-ЯЁ]+" minlength="2" title="Только буквы" required>
+      </label>
+      <label class="modal-form-label">Телефон
+       <input type="tel" name="user-phone" class="modal-form-input" required
+       pattern="[0-9{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="093-012-34-56">
+      </label>
+      <label class="modal-form-label">Почта
+       <input type="email" name="user-mail" class="modal-form-input" pattern="@" title="example@mail.com" required>
+      </label>
+    <label class="modal-form-label">Комментарий</label>
+    <textarea name="user-message" class="modal-form-message"></textarea>
+    <input type="checkbox" name="accept-policy" id="" class="modal-form-checkbox">
+    <label for="" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="contract">Условия договора</a>
+    </label>
+    <button tupe="submit"class="modal-form-button">Отправить</button>
+    </form>
     <button type="button" class="close-button" data-modal-close>
       <svg class="team-icon close-icon" width="20" height="20">
         <use href="./images/icons/sprite.svg#icon-close"></use>
@@ -386,6 +405,6 @@
     </button>
   </div>
 </div>
-<script src="./js/modal.js"></script>
+<!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
