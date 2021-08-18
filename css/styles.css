@@ -372,6 +372,9 @@ box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0
       width: 20px;
       height: 20px;
       fill: #AFB1B8;
+      transition-duration: 250ms;
+      transition-property: fill;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .team-list-icon:not(:last-child){
       margin-right: 10px;
@@ -421,6 +424,9 @@ margin-bottom: 50px;
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
+  transition-duration: 250ms;
+  transition-property: fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link{
   display: flex;
@@ -509,6 +515,9 @@ margin-bottom: 50px;
    letter-spacing: 0.03em;
    color:rgba(255,255,255,0.6);
    text-decoration: none;
+   transition-duration: 250ms;
+   transition-property: color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 .adress-foot .link:hover,
 .adress-foot .link:focus {
@@ -543,7 +552,7 @@ margin-bottom: 10px;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.56;
-  padding: 24px 64px;
+  padding: 64px 24px;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -624,7 +633,7 @@ margin-bottom: 10px;
    cursor: pointer;
    padding: 6px 22px;
    transition-duration: 250ms;
-   transition-property: background-color;
+   transition-property: background-color, color,box-shadow;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
