@@ -377,7 +377,7 @@
 </div>
 </div>
 </footer>
-<div class="backdrop " data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <form class="modal-form">
       <p class="modal-head">Оставьте свои данные, мы вам перезвоним</p>
@@ -409,8 +409,8 @@
     <label class="modal-form-label">Комментарий</label>
     <textarea name="user-message" class="modal-form-message">Введите текст
     </textarea>
-    <input type="checkbox" name="accept-policy" id="" class="modal-form-checkbox">
-    <label for="" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="contract">Условия договора</a>
+    <input type="checkbox" name="accept-policy" id="accept-policy" class="modal-form-checkbox visually-hidden">
+    <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="contract">Условия договора</a>
     </label>
     <button tupe="submit"class="modal-form-button">Отправить</button>
     </form>
@@ -421,6 +421,6 @@
     </button>
   </div>
 </div>
-<!-- <script src="./js/modal.js"></script> -->
+<script src="./js/modal.js"></script>
 </body>
 </html>
