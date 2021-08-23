@@ -546,6 +546,7 @@ margin-bottom: 10px;
   color: #FFFFFF;
 }
 .subscription-mail{
+  padding: 15px 16px;
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -554,6 +555,7 @@ margin-bottom: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: #2F303A;
+  color: rgba(255, 255, 255, 0.6);
   outline: none;
   cursor: pointer;
 }
@@ -744,7 +746,7 @@ margin-bottom: 10px;
   transition-property: fill;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .close-icon:hover{
+  .close-button:hover .close-icon{
     fill: var(--accent-color);
   }
   .modal-head{
@@ -816,6 +818,7 @@ margin-bottom: 10px;
   }
   .modal-form-checkbox-label{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     text-align: center;
@@ -838,10 +841,7 @@ margin-bottom: 10px;
     background-image: url(/images/icons/icon-check.svg);
     border:none;
   }
-  .modal-form-checkbox:focus + .modal-form-checkbox-label::before{
-    background-image: url(/images/icons/icon-check.svg);
-    border:none;
-  }
+ 
   .modal-form-button{
     align-self: center;
     font-weight: bold;
