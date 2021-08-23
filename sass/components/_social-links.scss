@@ -1,0 +1,32 @@
+.team-icon{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .team-list-icon:not(:last-child){
+    margin-right: 10px;
+  }
+  .humans-soc-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .humans-soc-link:hover,
+  .humans-soc-link:focus{
+    background-color: var(--accent-color);
+  }
+  
+  .humans-soc-link:hover> .team-icon,
+  .humans-soc-link:focus> .team-icon{
+    fill: var(--secondary-color);
+  }

@@ -1,0 +1,106 @@
+.header{
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+  }
+  .navi-cont{
+    display: flex;
+    align-items: center;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+  }
+  .site-nav.list{
+    display: flex;
+    align-items: center;
+    
+  }
+  .address.list{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .site-nav-item:not(:last-child){
+    margin-right: 50px;
+  }
+  /* Logo*/
+  .logo {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 90px;
+  }
+  .logo .change{
+    color: var(--accent-color);
+  }
+  
+  /*site-nav*/
+  .site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .site.link{
+  padding: 32px 0px;
+  display: block;
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus{
+    color: var(--accent-color);
+  }
+  .site-nav .studio{
+    color: var(--accent-color);
+    position: relative;
+  }
+  .current::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+    display: block;
+    bottom: 0;
+    margin-bottom: -2px;
+  }
+  
+    .site-nav .portfolio{
+      color: var(--accent-color);
+      position: relative;
+    }
+    
+  .address .link{
+     color: var(--text-color);
+     font-weight: 500;
+     font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .address .link:hover,
+  .address .link:focus {
+    color: var(--accent-color);
+  }
+  .mail-item{
+    display: flex;
+    align-items: center;
+  }
+  .mail-icon{
+    fill: currentColor;
+    margin-right: 10px;
+  }

@@ -1,0 +1,123 @@
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .foot{
+    background-color: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+  }
+  .foot-cont{
+    display:flex;
+    align-items: baseline;
+  }
+  .foot-left{
+    display: block;
+  }
+  .foot-right{
+    display: block;
+    margin-left: 70px;
+  }
+  .join{
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .join-icon{
+    fill: var(--secondary-color);
+  }
+ .adress{
+   font-style: normal;
+ }
+  .logo-fut{
+    display: block;
+    font-family: Raleway, sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+  color:var(--secondary-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+  }
+  .change-fut{
+    color: var(--accent-color);
+  }
+  .adress-foot .link{
+    font-weight: 400;
+    font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color:rgba(255,255,255,0.6);
+   text-decoration: none;
+   transition-duration: 250ms;
+   transition-property: color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.adress-foot .link:hover,
+.adress-foot .link:focus {
+  color: var(--accent-color);
+}
+.kiev{
+    font-weight: 400;
+    font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color:var(--secondary-color);
+   margin-bottom: 10px;
+   
+  }
+.foot-adress:not(:last-child){
+margin-bottom: 10px;
+}
+.subscription-form{
+  margin-left: 93px;
+}
+.subscription-text{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscription-mail{
+  padding: 15px 16px;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2F303A;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  cursor: pointer;
+}
+.input-button{
+  display: flex;
+}
+.subscription-button{
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
