@@ -32,17 +32,18 @@
       transition-duration: 250ms;
       transition-property: border-color;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .clients-link:hover,
-    .clients-link:focus{
+    
+     &:hover,
+     &:focus{
       border-color: var(--accent-color);
       outline: none;
     }
     
-    .clients-link:hover> .clients-icon,
-    .clients-link:focus> .clients-icon{
-      fill: var(--accent-color);
-    }
+     &:hover> .clients-icon,
+     &:focus> .clients-icon{
+      fill: var(--accent-color)
+     }
+  }
     
     
     .clients-item:not(:last-child){

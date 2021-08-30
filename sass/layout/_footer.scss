@@ -58,10 +58,11 @@
    transition-duration: 250ms;
    transition-property: color;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-.adress-foot .link:hover,
-.adress-foot .link:focus {
+  
+  &:hover,
+  &:focus {
   color: var(--accent-color);
+}
 }
 .kiev{
     font-weight: 400;

@@ -27,7 +27,6 @@
   .logo {
     color: var(--primary-text-color);
     font-family: Raleway, sans-serif;
-    font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -49,20 +48,25 @@
     transition-duration: 250ms;
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+   &:hover,
+   &:focus{
+    color: var(--accent-color);
+  }
   }
   .site.link{
   padding: 32px 0px;
   display: block;
   }
-  
-  .site-nav .link:hover,
-  .site-nav .link:focus{
+  .site-nav .portfolio{
     color: var(--accent-color);
+    position: relative;
   }
   .site-nav .studio{
     color: var(--accent-color);
     position: relative;
   }
+  
   .current::after{
     position: absolute;
     content: "";
@@ -75,27 +79,25 @@
     margin-bottom: -2px;
   }
   
-    .site-nav .portfolio{
-      color: var(--accent-color);
-      position: relative;
-    }
+   
     
   .address .link{
-     color: var(--text-color);
-     font-weight: 500;
-     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition-duration: 250ms;
-    transition-property: color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .address .link:hover,
-  .address .link:focus {
-    color: var(--accent-color);
-  }
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   transition-duration: 250ms;
+   transition-property: color;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+  &:hover,
+  &:focus {
+   color: var(--accent-color);
+ }
+}
   .mail-item{
     display: flex;
     align-items: center;
