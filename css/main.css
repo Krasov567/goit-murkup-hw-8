@@ -302,7 +302,7 @@ body {
   margin-left: auto;
 }
 
-.site-nav-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
