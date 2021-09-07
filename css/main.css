@@ -552,6 +552,12 @@ body {
 }
 
 .top-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -565,15 +571,6 @@ body {
 
 .about-hum {
   padding: 30px 32px;
-}
-
-.team.top-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .team.title {
